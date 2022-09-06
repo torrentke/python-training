@@ -17,7 +17,7 @@ number = int(input("Adj meg egy számot"))
 if number % 2 == 0:
     print(f"A szám {number} páros")
 
-if number % 2 ==1:
+if number % 2 !=0:
     print(f"A szám {number} páratlan")
 
 
