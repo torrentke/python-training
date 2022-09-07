@@ -21,3 +21,10 @@ if "John" in name:
 print(name.upper()) # a függváényt a name változón hívjuk meg
 fruit = "        alma         "
 print(fruit.strip())
+
+print("john" in "Jack Jane John")
+print("jOHn".upper() in "Jack Jane John".upper())
+
+
+name = "John Doe"
+# name[5] = "a" # object does not support item assignment
